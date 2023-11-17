@@ -1,0 +1,9 @@
+name: spring-petclinic
+
+on:
+  push:
+     branches:
+          -main
+jobs:
+   my_testing:
+      runs-on: ubuntu-latest
